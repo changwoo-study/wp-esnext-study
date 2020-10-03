@@ -1,0 +1,14 @@
+{
+  "name": "wp-esnext-study-01-react-hello-word",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "main": "src/index.php",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "@wordpress/scripts": "^12.2.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}
