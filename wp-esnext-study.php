@@ -58,4 +58,4 @@ if ( ! defined( 'ABSPATH' ) ) {
  *
  * 이 예제를 실행하고 싶다면 include 주석을 해제하세요.
  */
-include __DIR__ . '/01-react-hello-word/index.php';
+include __DIR__ . '/01-react-hello-world/index.php';
