@@ -44,24 +44,21 @@ add_action( 'init', 'wes02_init' );
 /**
  * 변역 파일 상대 경로 보정.
  *
- * 플러그인 내 01, 02 식으로 여러개의 내부 기능을 정의하기 때문에 wp i18n make-json 이 생성하는 md5 해시와
- * 코어에서 생각하는 md5 해시값이 차이가 난다. WP CLI 에서 이런 경로 차이를 보간할 수 있도록 명령어 옵션이 있어야 하는데
- * 이 코드를 작성하는 시점인 WP CLI v2.4.0에는 이런 기능을 지원하지 않는다.
- * 이 필터를 제거하면 블록 에디터의 번역이 제대로 로드되지 않는다.
+ * 만약 languages 디렉토리를 01, 02, ... 디렉토리 별로 따로 관리하게 된다면 이것을 사용해야 할 것이다.
  *
  * @param string $relative
  *
  * @return string
  */
-function wes02_adjust_relative( $relative ) {
-	if ( '02-block-editor-hello-world/build/index.js' === $relative ) {
-		$relative = 'build/index.js';
-	}
-
-	return $relative;
-}
-
-add_filter( 'load_script_textdomain_relative_path', 'wes02_adjust_relative' );
+//function wes02_adjust_relative( $relative ) {
+//	if ( '02-block-editor-hello-world/build/index.js' === $relative ) {
+//		$relative = 'build/index.js';
+//	}
+//
+//	return $relative;
+//}
+//
+//add_filter( 'load_script_textdomain_relative_path', 'wes02_adjust_relative' );
 
 
 /**
@@ -72,7 +69,7 @@ function wes02_block_editor_assets() {
 	 * json 번역 파일을 설정.
 	 */
 	if ( function_exists( 'wp_set_script_translations' ) ) {
-		wp_set_script_translations( 'wes02-hello-world', 'wp-esnext-study', __DIR__ . '/languages' );
+		wp_set_script_translations( 'wes02-hello-world', 'wp-esnext-study', dirname( __DIR__ ) . '/languages' );
 	}
 }
 

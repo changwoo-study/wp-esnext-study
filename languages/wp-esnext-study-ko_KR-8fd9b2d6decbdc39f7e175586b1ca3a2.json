@@ -1,7 +1,7 @@
 {
-  "translation-revision-date": "2020-10-04 14:19+0900",
+  "translation-revision-date": "2020-10-04 19:12+0900",
   "generator": "WP-CLI\/2.4.0",
-  "source": "build\/index.js",
+  "source": "02-block-editor-hello-world\/src\/index.js",
   "domain": "messages",
   "locale_data": {
     "messages": {
@@ -14,7 +14,7 @@
         "WP ES Next #2 \uc548\ub155, \uc138\uc0c1!"
       ],
       "\"Hello, World!\" sample for block editor.": [
-        "\"\uc548\ub155, \uc138\uc0c1!\" \ube14\ub85c \uc5d0\ud2f0\ud130\uc6a9 \uc0d8\ud50c."
+        "\"\uc548\ub155, \uc138\uc0c1\" \ube14\ub85d \uc5d0\ub514\ud130\ub97c \uc704\ud55c \uc0d8\ud50c."
       ]
     }
   }
