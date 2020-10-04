@@ -1,0 +1,16 @@
+{
+  "name": "wp-esnext-study-02-block-editor-hello-word",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "main": "src/index.php",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "@wordpress/blocks": "^6.22.0",
+    "@wordpress/i18n": "^3.15.0",
+    "@wordpress/scripts": "^12.2.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
+  }
+}

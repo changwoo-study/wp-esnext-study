@@ -1,0 +1,30 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2020-10-04 13:54+0900\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: Poedit 2.3\n"
+"X-Domain: wp-esnext-study\n"
+
+#: index.php:64
+msgid "WP ES Next #2"
+msgstr ""
+
+#: index.php:76
+msgid "Hello, World, WP ES Next #2."
+msgstr ""
+
+#: build/index.js:114 src/index.js:10
+msgid "WP ES Next #2 Hello, World!"
+msgstr ""
+
+#: build/index.js:115 src/index.js:11
+msgid "\"Hello, World!\" sample for block editor."
+msgstr ""
