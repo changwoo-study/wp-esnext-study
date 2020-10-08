@@ -1,5 +1,5 @@
 {
-  "name": "wp-esnext-study-01-react-hello-word",
+  "name": "wp-esnext-study-03-sidebar-hello-world",
   "scripts": {
     "start": "wp-scripts start",
     "build": "wp-scripts build"
@@ -7,8 +7,5 @@
   "main": "src/index.js",
   "license": "GPL-2.0-or-later",
   "devDependencies": {
-    "@wordpress/scripts": "^12.2.1",
-    "react": "^16.13.1",
-    "react-dom": "^16.13.1"
   }
 }

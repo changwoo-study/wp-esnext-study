@@ -4,7 +4,7 @@
     "start": "wp-scripts start",
     "build": "wp-scripts build"
   },
-  "main": "src/index.php",
+  "main": "src/index.js",
   "license": "GPL-2.0-or-later",
   "devDependencies": {
     "@wordpress/blocks": "^6.22.0",
