@@ -1,10 +1,10 @@
 {
-  "name": "wp-esnext-study-02-block-editor-hello-word",
+  "name": "wp-esnext-study-02-block-editor-hello-world",
   "scripts": {
     "start": "wp-scripts start",
     "build": "wp-scripts build"
   },
-  "main": "tmp/index.php",
+  "main": "src/index.php",
   "license": "GPL-2.0-or-later",
   "devDependencies": {
     "@wordpress/blocks": "^6.22.0",
