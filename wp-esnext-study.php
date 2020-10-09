@@ -11,6 +11,9 @@ if ( ! defined( 'ABSPATH' ) ) {
 	return;
 }
 
+define( 'WES_MAIN', __FILE__ );
+define( 'WES_VERSION', '' );
+
 /*
  * node, npm 설치는 되어 있나요?
  * `node -v`, `npm -v`를 각각 실행해 설치를 확인하세요.
@@ -63,4 +66,11 @@ if ( ! defined( 'ABSPATH' ) ) {
 /*
  * 가장 간단한 블록 에디터를 만들어 봅니다.
  */
-include __DIR__ . '/02-block-editor-hello-world/index.php';
+// include __DIR__ . '/02-block-editor-hello-world/index.php';
+
+/*
+ * 사이드바에서 Hello, World!
+ *
+ * 플러그인 사이드바를 추가하는 예제입니다. 이 예제를 실행하려면 include 주석을 해제하세요.
+ */
+include __DIR__ . '/03-sidebar-hello-world/index.php';

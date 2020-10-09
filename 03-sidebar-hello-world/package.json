@@ -4,8 +4,15 @@
     "start": "wp-scripts start",
     "build": "wp-scripts build"
   },
-  "main": "src/index.js",
+  "main": "build/index.js",
   "license": "GPL-2.0-or-later",
   "devDependencies": {
+    "@wordpress/components": "^11.0.0",
+    "@wordpress/edit-post": "^3.24.0",
+    "@wordpress/i18n": "^3.16.0",
+    "@wordpress/plugins": "^2.22.0",
+    "@wordpress/scripts": "^12.3.0",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }
