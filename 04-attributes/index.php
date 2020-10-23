@@ -1,5 +1,9 @@
 <?php
-
+/*
+ * ESNext #4: 블록 에디터 속성
+ *
+ * @link https://blog.changwoo.pe.kr/esnext-4-%eb%b8%94%eb%a1%9d-%ec%97%90%eb%94%94%ed%84%b0-%ec%86%8d%ec%84%b1/
+ */
 if ( ! defined( 'ABSPATH' ) ) {
 	return;
 }
