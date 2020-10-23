@@ -1,0 +1,15 @@
+{
+  "name": "wp-esnext-study-04-attributes",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "main": "build/index.js",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "@wordpress/blocks": "^6.23.0",
+    "@wordpress/components": "^11.0.1",
+    "@wordpress/i18n": "^3.16.0",
+    "@wordpress/scripts": "^12.3.0"
+  }
+}

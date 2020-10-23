@@ -73,4 +73,9 @@ define( 'WES_VERSION', '' );
  *
  * 플러그인 사이드바를 추가하는 예제입니다. 이 예제를 실행하려면 include 주석을 해제하세요.
  */
-include __DIR__ . '/03-sidebar-hello-world/index.php';
+// include __DIR__ . '/03-sidebar-hello-world/index.php';
+
+/*
+ * 블록 에디터 속성 예제.
+ */
+include __DIR__ . '/04-attributes/index.php';
