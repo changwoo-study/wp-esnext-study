@@ -83,4 +83,9 @@ define( 'WES_VERSION', '' );
 /*
  * ESNext #5: 동적 렌더링과 사이드바에 커스텀 필드 편집
  */
-include __DIR__ . '/05-dynamic-render/index.php';
+// include __DIR__ . '/05-dynamic-render/index.php';
+
+/*
+ * ESNext #6: Hooks.
+ */
+include __DIR__ . '/06-hooks/index.php';
