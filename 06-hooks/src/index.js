@@ -1,5 +1,7 @@
 /*
  * JS에서도 훅이 구현되어 있습니다. 알아봅시다.
+ *
+ * @link https://blog.changwoo.pe.kr/esnext-6-hooks/
  */
 
 import {addAction, addFilter, doAction, applyFilters, doingAction, doingFilter} from '@wordpress/hooks';
