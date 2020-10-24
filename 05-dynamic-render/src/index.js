@@ -47,26 +47,30 @@ registerBlockType('wp-estnext-study/wes05-dynaic-render', {
 });
 
 
-let DynamicRender = (props) => {
+let DynamicRender = ({anotherName, onChange}) => {
     return (
         <TextControl
             label="Another Name"
-            value={props.anotherName}
-            onChange={value => props.onChangeAnotherName(value)}
+            value={anotherName}
+            onChange={onChange}
         />
     );
 }
 
 // withSelect 로 DynamicRender 함수를 래핑.
 DynamicRender = withSelect(select => {
-    return {anotherName: select('core/editor').getEditedPostAttribute('meta')['_another_name']};
+    const {getEditedPostAttribute} = select('core/editor');
+    return {
+        anotherName: getEditedPostAttribute('meta')['_another_name']
+    };
 })(DynamicRender);
 
 // withDispatch 로 DynamicRender 함수를 다시 래핑.
 DynamicRender = withDispatch(dispatch => {
+    const {editPost} = dispatch('core/editor');
     return {
-        onChangeAnotherName(value) {
-            dispatch('core/editor').editPost({meta: {_another_name: value}});
+        onChange(value) {
+            editPost({meta: {_another_name: value}});
         }
     }
 })(DynamicRender);

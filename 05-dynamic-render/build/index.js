@@ -155,27 +155,33 @@ Object(_wordpress_blocks__WEBPACK_IMPORTED_MODULE_2__["registerBlockType"])('wp-
   }
 });
 
-var DynamicRender = function DynamicRender(props) {
+var DynamicRender = function DynamicRender(_ref2) {
+  var anotherName = _ref2.anotherName,
+      onChange = _ref2.onChange;
   return Object(_wordpress_element__WEBPACK_IMPORTED_MODULE_0__["createElement"])(_wordpress_components__WEBPACK_IMPORTED_MODULE_3__["TextControl"], {
     label: "Another Name",
-    value: props.anotherName,
-    onChange: function onChange(value) {
-      return props.onChangeAnotherName(value);
-    }
+    value: anotherName,
+    onChange: onChange
   });
 }; // withSelect 로 DynamicRender 함수를 래핑.
 
 
 DynamicRender = Object(_wordpress_data__WEBPACK_IMPORTED_MODULE_4__["withSelect"])(function (select) {
+  var _select = select('core/editor'),
+      getEditedPostAttribute = _select.getEditedPostAttribute;
+
   return {
-    anotherName: select('core/editor').getEditedPostAttribute('meta')['_another_name']
+    anotherName: getEditedPostAttribute('meta')['_another_name']
   };
 })(DynamicRender); // withDispatch 로 DynamicRender 함수를 다시 래핑.
 
 DynamicRender = Object(_wordpress_data__WEBPACK_IMPORTED_MODULE_4__["withDispatch"])(function (dispatch) {
+  var _dispatch = dispatch('core/editor'),
+      editPost = _dispatch.editPost;
+
   return {
-    onChangeAnotherName: function onChangeAnotherName(value) {
-      dispatch('core/editor').editPost({
+    onChange: function onChange(value) {
+      editPost({
         meta: {
           _another_name: value
         }
