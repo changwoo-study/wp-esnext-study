@@ -1,0 +1,18 @@
+{
+  "name": "wp-esnext-study-05-dynamic-render",
+  "scripts": {
+    "start": "wp-scripts start",
+    "build": "wp-scripts build"
+  },
+  "main": "build/index.js",
+  "license": "GPL-2.0-or-later",
+  "devDependencies": {
+    "@wordpress/blocks": "^6.24.0",
+    "@wordpress/components": "^11.1.0",
+    "@wordpress/data": "^4.25.0",
+    "@wordpress/edit-post": "^3.25.0",
+    "@wordpress/plugins": "^2.23.0",
+    "@wordpress/scripts": "^12.4.0",
+    "react": "^17.0.1"
+  }
+}

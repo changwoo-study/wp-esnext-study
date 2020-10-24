@@ -76,6 +76,11 @@ define( 'WES_VERSION', '' );
 // include __DIR__ . '/03-sidebar-hello-world/index.php';
 
 /*
- * 블록 에디터 속성 예제.
+ * ESNext #4: 블록 에디터 속성
  */
-include __DIR__ . '/04-attributes/index.php';
+// include __DIR__ . '/04-attributes/index.php';
+
+/*
+ * ESNext #5: 동적 렌더링과 사이드바에 커스텀 필드 편집
+ */
+include __DIR__ . '/05-dynamic-render/index.php';
