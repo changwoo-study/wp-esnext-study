@@ -2,7 +2,7 @@
 /*
  * 05 Dynamic Render
  *
- * @link
+ * @link https://blog.changwoo.pe.kr/esnext-5-%eb%8f%99%ec%a0%81-%eb%a0%8c%eb%8d%94%eb%a7%81%ea%b3%bc-%ec%82%ac%ec%9d%b4%eb%93%9c%eb%b0%94%ec%97%90-%ec%bb%a4%ec%8a%a4%ed%85%80-%ed%95%84%eb%93%9c-%ed%8e%b8%ec%a7%91/
  */
 
 if ( ! defined( 'ABSPATH' ) ) {
