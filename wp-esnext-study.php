@@ -88,4 +88,9 @@ define( 'WES_VERSION', '' );
 /*
  * ESNext #6: Hooks.
  */
-include __DIR__ . '/06-hooks/index.php';
+// include __DIR__ . '/06-hooks/index.php';
+
+/*
+ * ESNext #7: Redux Heloo, World!
+ */
+include __DIR__ . '/07-redux-hello-world/index.php';

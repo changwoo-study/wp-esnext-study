@@ -1,0 +1,45 @@
+#redux-hello-world fieldset {
+    width: 328px;
+}
+
+#redux-hello-world div {
+    float:left;
+}
+
+#redux-hello-world fieldset:after {
+    display: block;
+    content: "";
+    clear: both;
+}
+
+#redux-hello-world div:nth-of-type(2) {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+#redux-hello-world div:last-of-type {
+    border: 2px solid rgb(220, 215, 202);
+    width: 100px;
+    height: 72px;
+    border-radius: 10px;
+    font-size: 28px;
+    text-align: center;
+    padding: 15px 20px;
+}
+
+#redux-hello-world input[type="button"] {
+    padding: 5px 20px;
+    font-size: 48px;
+    width: 72px;
+    height: 72px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+#redux-hello-world input[type="button"]:hover {
+    text-decoration: none;
+}
+
+
+
+/*# sourceMappingURL=index.css.map*/
